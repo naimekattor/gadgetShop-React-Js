@@ -17,12 +17,12 @@ const Navbar = () => {
   const { items } = useSelector(state => state.cart);
   return (
     <header className='bg-[#fe6724]'>
-      <div className='flex justify-between py-4 px-[25px] items-center container mx-auto'>
+      <div className='flex justify-between gap-4 py-4 px-[25px] items-center container mx-auto'>
         <div className='text-2xl font-bold'>
           Gadget <span className=' text-white '>Shop</span>
         </div>
         <div className='relative '>
-          <input type="text" placeholder='Search..' className=' border md:w-[500px] h-10 rounded-lg outline-none w-[200px] ' onChange={(e) => setSearchItem(e.target.value)} />
+          <input type="text" placeholder='Search..' className=' border md:w-[500px] h-10 rounded-lg outline-none w-[120px] ' onChange={(e) => setSearchItem(e.target.value)} />
           {
             searchItem.length > 0 ? <div className='absolute top-10 bg-white md:w-[500px] w-[200px] z-10'>
               <SearchResult filterProducts={filterProducts} />

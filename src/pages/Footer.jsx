@@ -6,14 +6,14 @@ const Footer = () => {
         <div className='flex md:flex-row flex-col md:items-start items-center justify-between p-4'>
           <div className='flex md:flex-col flex-row gap-4'>
             <h1 className=' font-semibold text-[18px] mb-2'>Supprort</h1>
-            <div className='flex flex-row gap-4 items-center border p-4 rounded-full '>
+            <div className='flex flex-row gap-4 items-center border p-4 md:rounded-full rounded-md '>
               <span className=' border-r-2 border-[#fe6724] px-2'><MdAddIcCall /></span>
               <div className='flex flex-col'>
                 <span className="text-[14px]">9AM-8PM</span>
                 <span className='text-[#fe6724] font-semibold'>1234</span>
               </div>
             </div>
-            <div className='flex flex-row gap-4 items-center border p-4 rounded-full'>
+            <div className='flex flex-row gap-4 items-center border p-4 md:rounded-full rounded-md'>
               <span className=' border-r-2 border-[#fe6724] px-2'><MdAddIcCall /></span>
               <div className='flex flex-col'>
                 <span className="text-[14px]">9AM-8PM</span>
