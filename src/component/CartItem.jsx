@@ -14,7 +14,7 @@ const CartItem = ({ item }) => {
       <h2 className='hidden md:block'>{item.price} Tk</h2>
       <h2>{item.totalQuantity}</h2>
       <span onClick={handleRemoveFromCart} className=' cursor-pointer'><MdDelete /></span>
-      <h2>{item.totalAmount} Tk</h2>
+      <h2 oncli>{item.totalAmount} Tk</h2>
     </div>
   );
 };
